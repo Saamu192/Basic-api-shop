@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70px;
+    width: 100vw;
+    background-color: #F5F5F5;
+ 
+}
+
+#textLogo {
+    font-size: 30px;
+    font-weight: bold; 
+ }
+
+ #logo {
+    height: 30px;
+    width: 30px;
+    margin: 0px 10px 0px 115px;
+}
+
+#linkNavegacao {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 115px;
+    color: #828282;
+}
+
+.navLink1 {
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header > nav {
+    margin-left: 57%;
+}
+
+header > nav > ul > li:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+
+header > h1 {
+    font-family: 'Chivo';
+    font-size: 88px;
+    font-weight:bolder;
+    color: black;
+    margin-top: 67px;
+    margin-left: 56px;
+}
+
+header > h2 {
+    font-family: 'Archivo';
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-left: 56px;
+}
+
+#shop__container {
+    width: 1114px;
+    height: 1612px;
+    margin: 30px 403px 227px 403px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.product__container {
+    height: 472px;
+    width: 259px;
+    display: flex;
+    margin: 16px 16px 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid #9DC2FF;
+}
+
+.product__container:hover {
+    -webkit-box-shadow: 19px 1px 30px -21px rgba(0,0,0,0.91); 
+    box-shadow: 19px 1px 30px -21px rgba(0,0,0,0.91);
+}
+
+.product__img{
+    width: 227px;
+    height: 224px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.product__stars {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 8px;
+
+}
+
+.product__stars > img {
+    width: 11.07px;
+    height: 11.07px;
+    margin-right: 3px;
+}
+
+.product__resumn {
+    width: 227px;
+    height: 74px;
+    margin-top: 19px;
+    margin-left: 8px;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+.product__price {
+    width: 227px;
+    height: 36px;
+    margin-left: 8px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.product__price--active{
+    width: 225px;
+    height: 35px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 11px;
+    font-weight: 700;
+    color: grey;
+    margin-left: 8px;
+}
+
+
+.product__buy {
+    width: 88px;
+    height: 32px;
+    margin-top: 9px;
+    margin-bottom: 14px;
+    margin-left: 8px;
+    background-color: white;
+    color: #3982f7;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.product__buy:hover {
+    background-color: #9DC2FF;
+    color: white;
+}
+
